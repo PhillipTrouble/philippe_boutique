@@ -1,10 +1,96 @@
 body {
-    background: orange;
+    background: url(../img/fond.png);
+}
+#conteneur {
+    background: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    width: 1000px;
+    height: 100px;
+    box-sizing: border-box;
+}
+#logo {
+    width: 100px;
+    float: left;
+}
+#slogan {
+    width: 300px;
+    float: left;
+}
+#aide {
+    width: 300px;
+    float: left;
 }
 
-#conteuneur {
-    margin: 0 auto;
+h2 {
+    color: #2980b9;
+}
+
+h5 {
+    color: #2980b9;
+    
+}
+#compte {
+    background:#2980b9 ;
+    width: 300px;
+    float: left;
+}
+nav {
+    background: #2980b9;
+    padding: 8px;
+    }
+
+nav a {
+    margin: 43px;
+    background: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.text {
+    box-sizing: border-box;
+}
+
+.paiement {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.vision {
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+.services {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.robe {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.chemise {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.chaussure {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+footer {
+    background: #33CCFF;
     width: 1000px;
-    height: 500px;
-    background: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.clear {
+    clear: both;
 }
